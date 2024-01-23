@@ -8,7 +8,9 @@ There are 3 users through which websites work :
 Ideal response code is 200 for communication between the client, browser and server.
 Here is the reference link : https://ahrefs.com/seo/glossary/http-200
 
-In other terms, whatever information that we request from a server to showcase it to us, we are requesting the whole code for it, and the browser simply accepts this requests, send it to the server who handle the site we wish to access, and brings us with the response for it. 
+In other terms, whatever information that we request from a server to showcase it to us, we are requesting the whole code for it, 
+and the browser simply accepts this requests, send it to the server who handle the site we wish to access, and brings us with the 
+response for it. 
 This response can be anything, whether we have founded the site or not, it doesn't exist, whatever.
 So a browser just bundles this all for us, to showcase us a beautiful and simple site, like google.com, youtube.com, etc.
 
@@ -22,4 +24,20 @@ It is part of the website that you cannot see and interact with.
 It is the portion of software that does not come in direct contact with the users.
 
 You can press "!" for typing in the default required preset for getting started with HTML. Do it and test for yourself :).
+
+So, what happens is that whenever we are doing Web D, we have 3 things for it :
+1) HTML : The skeleton of the whole. The main structure.
+2) CSS : The styling, beautifulness of the website.
+3) JAVASCRIPT : Client Side scripting; whatever interactions we do after clicking that search button, or any button of that sort
+                that is done by the use of JavaScript.
+
+
+The goal should be to learn,
+HTML - 80%
+CSS - 40-60%
+JS - 50-70%
+And then start with web d and then you can earn while learning.
+It's not necessary to learn 100% for each of these.
+
+PRACTICE IS NECESSARY AS USUAL !
 
