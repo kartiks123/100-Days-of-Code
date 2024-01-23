@@ -1,0 +1,13 @@
+There are 3 users through which websites work :
+1) Client - This is us and we request domains or sites like youtube.com, facebook.com
+
+2) Server - through server, the main handlers of these sites, requests are accepted and are given back to the user.
+
+3) Browser - browser helps to convert the code from html, css into the sites that we see.
+
+Ideal response code is 200 for communication between the client, browser and server.
+
+In other terms, whatever information that we request from a server to showcase it to us, we are requesting the whole code for it, and the browser simply accepts this requests, send it to the server who handle the site we wish to access, and brings us with the response for it. 
+This response can be anything, whether we have founded the site or not, it doesn't exist, whatever.
+So a browser just bundles this all for us, to showcase us a beautiful and simple site, like google.com, youtube.com, etc.
+
