@@ -6,3 +6,4 @@ The link between the HTML and CSS file is needed to be done so as to tell them b
 JS file is also needed to be linked in our HTML file, using Script tag and a src attribute. All this falls under the Emmet Abbreviation.
 Also, remember that we type both of this, just above the ending segment of the <body> tag.
 
+Without loading the pages, whatever actions are responded with a response/answer from a server, back to the client, is what JS is all about.
