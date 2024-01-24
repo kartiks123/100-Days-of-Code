@@ -1,1 +1,1 @@
-1
+alert("Hey there, meri aatma trupt ho gyi, agar ye chal gya to !")
