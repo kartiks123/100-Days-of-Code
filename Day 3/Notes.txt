@@ -1,0 +1,24 @@
+There might be times when we need to keep reloading our browser tab, after we are making changes to the css files.
+But whenever we are doing that to a html file, we do not need to reload our browser.
+
+There are 2 types of tages in HTML : 
+1) Paired Tags
+2) Unpaired Tags
+
+Here is the reference link which you can see for more details on Paired and Unpaired tags :
+https://www.coderepublics.com/HTML/html-tags.php
+
+Here the "title" (tag) which is there, is what the search engines use and parse to find them.
+Titles are forever changing.
+They are useful for SEO and describe what the page will have, or what it will describe.
+
+Head tags contains what the metadata of page is. 
+
+Meta tags are basically what the HTML documents are. What kinds of page it is. It is important for SEO.
+If we talk about google, Meta description is what google tells us about a page, by writing a few lines from that page, 
+just below the title.
+
+One more thing,
+We might see things like - lang="en", src=""; these are key value pairs that work like attributes.
+
+We got to learn about how to set our IPV4 in our Live Preview : Host IP settings, to showcase our HTML page on our mobile phones, using IP addresses.
