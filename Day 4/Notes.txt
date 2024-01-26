@@ -1,0 +1,27 @@
+On this day, we will be creating a bookmark website that will help us create a space that will store all the useful sites for 
+us, all in a single place.
+
+New Tips :
+1) Wherever you want your cursor to appear after a certain code, hold alt key and then just point towards the place where you
+   want your cursor to be.
+2) Also, when you press "Shift+Alt+(down arrow key)" together, you can replicate the code which is written just after the cursor,
+   just below that.|
+   just below that.
+   just below that.
+
+   Like this...
+
+Also we can initiate the beginning of a paragraph tag by using <p> tag.
+Tip : You can type the word - "lorem", followed by a number, which can type the text for that amount.
+
+Also, you can see that we are using the attribute of lang="en", which we talked about yesterday.
+
+You can use the anchor tag to create a link tag, in a website.
+There are many attributes that you can use within an anchor tag -
+1) href - this is used to mark the website that we want the user to go to after clicking the link.
+2) rel - The rel attribute specifies the relationship between the current document and the linked document. 
+         Only used if the href attribute is present.
+
+         = if we used the blank in rel, that means a new tab will be opened after clicking the link.
+         if we don't use that, the same tab will be used to open the link.
+
