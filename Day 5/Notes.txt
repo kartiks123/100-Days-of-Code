@@ -22,3 +22,20 @@ It is written just after the table tag (and inside it).
 You can also use header and footer tags in html - "theader" and "tfooter".
 These 2 tags are used to represent the header section and footer section of the table respectively.
 
+There are 3 types of list that we can create :
+1) ul - unordered list : when you want your list to be in a random order, and it follows discs showcase, while representing \
+        numbers.
+2) ol - ordered list : when you want your list to be in an order. It can follow, roman numerals, numbers, etc.
+3) dl - definition list : when you want your data to be able to describe itself after suggesting the main title.
+        we write "<dd> ... </dd>" to write data, about data.
+
+You can change the type of the way of how the list items are being showcased to us in an UNORDERED LIST, using the 
+"type=?" attribute.
+There are 3 ways in which you can do that - discs (default), circle, square.
+
+For changing this in an ORDERED LIST, we follow :
+1) UPPERCASE Roman Numerals : type="I"
+2) lowercase Roman Numerals : type="i"
+3) Arabic Numerals : type="1"
+4) lowercase Alphabetical Letters : type="a"
+5) UPPERCASE Alphabetical Letters : type="A"
