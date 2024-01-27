@@ -1,0 +1,14 @@
+To use an Image tag in html, we use the "src" tag to do so.
+
+alt - full form is alternative text.
+      1) if in case, a pic does not load due to any browser issue or url issue, the alternate text is displayed in place of the 
+      image.
+      2) There are many types of image extensions you can use.
+
+You can also set the height and width of the pic, while declaring src and alt.
+
+If some different height and width ratios are given, the image can become distorted.
+If you are setting only one of them out of these both, the other one gets set, automatically.
+
+We also don't write anything after specifying the number like "%" or "px", cause in HTML, it is by default considered as pixels.
+
