@@ -12,3 +12,13 @@ If you are setting only one of them out of these both, the other one gets set, a
 
 We also don't write anything after specifying the number like "%" or "px", cause in HTML, it is by default considered as pixels.
 
+There are 2 things in tables :
+1) Rowspan - This will merge the amount of rows that you need as a single row.
+2) Colspan - This will merge the amount of columnds taht you need as a single column.
+
+You can also add "Captions" in html, using captions tag.
+It is written just after the table tag (and inside it).
+
+You can also use header and footer tags in html - "theader" and "tfooter".
+These 2 tags are used to represent the header section and footer section of the table respectively.
+
