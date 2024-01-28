@@ -1,0 +1,20 @@
+Google does the following 3 things in its backend, for putting up the website on top of other websites so that other users see 
+this first. This is based on : 
+    1) how *fast* the website opens up 
+    2) whether right *information is present* or not
+    3) whether *user experience* is good or not
+
+So if your content is good, along with Core Web Vitals, your content will be given preference first.
+
+
+
+1) CLS stands for Cumulative Layout Shift. It should be as less as possible. How much page is shifted, while it is being loaded.
+CLS is the first thing that comes first in Core Web Vitals.
+
+2) LCP stands for Largest Contexual Paint. It means if a user is accessing an element inside a website, the most biggest picture
+loads in how many seconds is what LCP is. Best time for this is considered as 2.5 seconds.
+
+3) FID stands for First Input Delay. How much time it takes to process an action, like button, link, on a website. Recommended
+is under 100 ms.
+
+Lighthouse Report in Inspect page of a website, tells us about how a website is going to perform.
