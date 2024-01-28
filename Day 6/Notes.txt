@@ -18,3 +18,14 @@ loads in how many seconds is what LCP is. Best time for this is considered as 2.
 is under 100 ms.
 
 Lighthouse Report in Inspect page of a website, tells us about how a website is going to perform.
+It will show us all the useful information which we can use to improve our website.
+We can check it for both mobile as well as laptop devices.
+
+
+Meta tags are used to describe more about what is already been written.
+
+If we are using Meta Description (meta:dsc) tags, we can let the browser decide what it wants to show alongside our website,
+while a user searches for it. Do this for eg, search "facebook" on google. It will show - "Create an account or log into Facebook. 
+Connect with friends, family and other people you know. Share photos and videos, send messages and get updates." This is the 
+description about Facebook website, and this part is decided by the browser whether it is what to show here, or to even show 
+the desciption or not.
