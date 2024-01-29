@@ -1,0 +1,45 @@
+Forms are simple ui where we store and send data.
+
+It requires us to select 2 actions ->
+1) GET : If we want to hit the server with 1 data, we use GET. We never send password from this request.
+2) POST : If we are sending multiple requests to a server, we use POST. We send passwords from this request.
+
+HTTP POST requests supply additional data from the client (browser) to the server in the message body. 
+In contrast, GET requests include all required data in the URL.
+
+
+We use input tags to put data inside forms. Now, what does this input tag contains ?
+It contains :
+1) data
+2) name
+3) phone number
+4) age
+
+and label tags.
+
+Now what is a LABEL TAG ?
+A label tag is used to provide additional information, for a form element, whether it is a placeholder, text box, submit button, 
+etc.
+
+If you want to start with a form type, there are certain steps: 
+1) label tag : 
+   you can begin this by stating "for".
+   eg., 
+        <label for="(id-name)">"Label name here"</label>
+   
+2) input tag :
+   then, you can begin by stating the input tag 
+        <input type="radio" id=(label-name) name="" value="">
+
+Since in the index.html, the example we have taken is of selecting one of the radio buttons of Male or Female, we can 
+do so by setting the 'name="gender"', in both of them. That way, we can only select only one of them.
+
+If we change the for attribute in label tag of one radio button by not keeping its value equal to the value of the id 
+attribute of the input tag *and* let the for attribute of label tag of other attribute be same as that of the id attribute 
+of the same input tag, the tag that has not been put equal to the id attribute will not be able to be clicked directly.
+
+The area in textarea content should be kept empty as we only have to input values there when we need to, not all the time do 
+we need to keep adding more values there in the textarea and that too beforehand.
+
+Autofocus is another attribute that you can use for showing the place of cursor inside the placeholder, as and when you are 
+entering values in it.
