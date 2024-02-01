@@ -1,0 +1,40 @@
+The src tag is used to determine the path from where the original content is being upload.
+Remember that this tag can be used for telling the path not just of a file which is there in our laptop or device, but also to
+a file kept in an Amazon server. So it is not restricted to just use it for a file (video in this case), kept in our device.
+
+V. Imp :
+Poster tag acts like a thumbnail to your video which can be showcased to a user before a video is even played. Very good :)
+
+There are many attributes like :
+1) src : specifies the path to the video file
+2) controls : adds video controls, like play, pause and volume
+3) autoplay : automatically starts playing the video when the page loads
+4) loop : repeats the video, once it has ended
+5) muted : mutes the video by default
+6) poster : used to set the thumbnail of the video
+7) width and height : used to specify the dimensions of the video
+
+The audio files will only be visible after we have added controls attribute to it, because without it, we won't have the basic
+functionality to run our audio properly.
+
+There are many attributes like :
+1) src : specifies the path to the video file
+2) controls : adds video controls, like play, pause and volume
+3) autoplay : automatically starts playing the video when the page loads
+4) loop : repeats the video, once it has ended
+5) muted : mutes the video by default
+6) preload : preload values have different values -
+            a) none : the default value. It indicates that the browser should not preload the audio file at all. The audio file 
+               will only start downloading when the user initiates playback.
+            b) metadata : This value tells the browser to preload only the metadata of the audio file, such as its duration
+               and basic information about the audio. This can be useful if you want to display the audio duration to the user 
+               without fully loading the audio data.
+            c) auto : This value instructs the browser to preload the entire aduio file as much as possible without delaying the
+               loading of other important page content. The browser will try to load the audio file in the background so that
+               it's ready to play when the user decides to start it.
+
+            to understand preload in more depth, go to the link : https://www.thecodehelp.in/course/web-development-bootcamp
+            and inspect it.
+
+
+SVG is used to create high graphics, vector images in HTML.
