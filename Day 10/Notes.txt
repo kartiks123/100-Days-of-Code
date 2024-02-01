@@ -38,3 +38,10 @@ There are many attributes like :
 
 
 SVG is used to create high graphics, vector images in HTML.
+Here, it is rarely used for any functionality, but it is told just in case, it might be of use one day.
+Eg is explained in the HTML file only.
+
+
+iframe is yet another component which you can use to link another website into your own html page.
+The frameborder attribute specifies whether or not to display a border around an <iframe>. 
+Tip: It may be better to not specify a frameborder, and use CSS to apply borders instead.
