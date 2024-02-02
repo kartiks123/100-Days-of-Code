@@ -1,0 +1,37 @@
+Semantic Tags are useful for SEO and to understand the structure of the website.
+They enhance SEO, improve accessibility and make your code easier to read and maintain.
+So, simply speaking, it is used to make our content organised and well-suited for a reader or user to look into it.
+ 
+Benefits :
+Using HTML's semantic tags can greatly benefit both your website's SEO and the maintainability of your code. They offer a way 
+to structure your HTML in a meaningful manner, making your website more accessible and easier to understand.
+ 
+Semantic tags tell browser or web crawlers about what your website is and where each thing placed in the website, is telling us 
+about it.
+ 
+It's not mandatory to use Semantic tags but this process will help us to let our website be ranked in various browsers, so that 
+it is displayed accordingly.
+We would want that crawlers will understand our website.
+ 
+Semantic Tags Eg-
+
+1) header
+2) nav
+3) main
+4) article
+5) figure
+6) aside
+7) p
+8) section
+9) footer
+
+Non Semantic Tags Eg :
+1) div
+2) span
+ 
+"<aside> tag>" is used to typically used for sidebards or content that is tangentially related to the main content.
+ 
+"<figure> and <figcaption> tag" is used for embedding images, diagrams or charts along with a caption.
+ 
+"<time> tag" is used to represent time-related information, like dates and times.
+ 
