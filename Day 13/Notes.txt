@@ -18,4 +18,10 @@ We can also use "&copy;" to write Copyright symbol in HTML.
 This tag helps us to let us keep empty spaces in our codes, or even make new spaces in our codes; as depicted in the examples.
 
 Quotation tags are used to mark quotation in your website. 
-They are represented separat
+They are represented separately in a different section. You can use that to mark quotes.
+
+Font tags are obsolete in HTML now, because we do that in CSS particularly now.
+
+Code tag is used to write codes in HTML. We can use it with Pre tags also, to retain the spaces that we want in our code.
+
+Canvas is something through which we make our graphical images in HTML. Not used through .js.
