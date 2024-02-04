@@ -1,0 +1,8 @@
+There are certain elements that if we wrote them in normal HTML, they might collide with the syntax of HTML code.
+Eg- like we wrote for <p></p>.
+
+So we use - "&lt;" and "&gt;" for "<" and ">" respectively.
+
+There is also another entity known as - "<pre>" tag
+Through this, we can write our code as it is, whether with spaces, or with different empty lines; our lines of code will be 
+shown as it is.
