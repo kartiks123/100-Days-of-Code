@@ -12,3 +12,10 @@ Remember, we use Entities especially for representing tags, within our HTML code
 
 Copyright Tag :
 We can also use "&copy;" to write Copyright symbol in HTML.
+
+"&nbsp;" tag :
+&nbsp; tag helps us to retain those empty spaces that maybe sometimes, we want to remain in our codes.
+This tag helps us to let us keep empty spaces in our codes, or even make new spaces in our codes; as depicted in the examples.
+
+Quotation tags are used to mark quotation in your website. 
+They are represented separat
