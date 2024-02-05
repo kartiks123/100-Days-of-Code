@@ -1,0 +1,4 @@
+CSS stands for Cascading Style Sheets. It is a stylesheet language that is used to describe the visual presentation of a 
+web page written in HTML (Hypertext Markup Language). 
+HTML creates the structure of the page, while CSS adds styling to that structure.
+
