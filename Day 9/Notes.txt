@@ -1,16 +1,20 @@
 ID : Unique Identifier
 ID stands for Unique Identifier
-An ID is an attribute, a unique identifier assigned to only one HTML element within a page. It is often used for unique styling and JavaScript manipulations.
+An ID is an attribute, a unique identifier assigned to only one HTML element within a page. It is often used for unique styling 
+and JavaScript manipulations.
 
 Whereas,
 
-The Class attribute lets you give the same name to multiple HTML elements. That way, you can easily change their look or behavior all at once. Classes are not unique and can be assigned to multiple elements. They are generally used for applying the same styles or behaviours to a group of elements.
+The Class attribute lets you give the same name to multiple HTML elements. That way, you can easily change their look or behavior 
+all at once. Classes are not unique and can be assigned to multiple elements. They are generally used for applying the same styles 
+or behaviours to a group of elements.
 
 Eg- 
 You can give a class name "red" to a form or a div class togethere.
 Similarly, you can also give the "bg-color" class to a header as well as a paragraph tag.
 
-The sole difference between classes and ID is that we can use the same class in different elements but we can't use the same ID in multiple elements. 
+The sole difference between classes and ID is that we can use the same class in different elements but we can't use the same ID 
+in multiple elements. 
 Eg. is written in index.html file.
 
 You can write multiple class attributes in the same line, by separating them with a "space" between them.
@@ -18,7 +22,8 @@ Eg- <div class="red bg-yellow">First</div>
 
 Remember, ID and Classes are Attributes in themselves, they are not elements. They are ATTRIBUTES of ELEMENTS.
 
-A nice trick to use links is by using ID in them. You can directly go to the section that you want to find, instead of scrolling down, by finding the ID 
+A nice trick to use links is by using ID in them. You can directly go to the section that you want to find, instead of scrolling 
+down, by finding the ID 
 element of that section.
 Eg- https://en.wikipedia.org/wiki/George_Clooney#Armenian_genocide
 
