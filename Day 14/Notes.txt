@@ -2,3 +2,17 @@ CSS stands for Cascading Style Sheets. It is a stylesheet language that is used 
 web page written in HTML (Hypertext Markup Language). 
 HTML creates the structure of the page, while CSS adds styling to that structure.
 
+HTML was never intended to create styles to a website. It was only made to create the structure of the website.
+
+<style> tag is used to create styles to a website in HTML.
+
+There are two elements in HTML :
+1) Declaration : "color:red;" is our declaration of our div tag in HTML (as shown in eg.).
+2) Selectors : "div { }" is our selector here. It represents what section we want in our HTML to change the style of.
+
+There is also a key-value pair.
+Eg - color: red;
+     Here, color is the key and red is its value.
+     They both work in sync to represent the end-result.
+
+Using "," (comma) to separate two different elements while styling them, will do the changes to both the elements.
