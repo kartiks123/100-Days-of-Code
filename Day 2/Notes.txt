@@ -1,9 +1,12 @@
 Today we are going to create our own website in HTML and also link it to CSS and JS !
 Let's start.
 
-The link between the HTML and CSS file is needed to be done so as to tell them both that they agree mutually to create a website together !
+The link between the HTML and CSS file is needed to be done so as to tell them both that they agree mutually to create a website 
+together !
 
-JS file is also needed to be linked in our HTML file, using Script tag and a src attribute. All this falls under the Emmet Abbreviation.
+JS file is also needed to be linked in our HTML file, using Script tag and a src attribute. All this falls under the Emmet 
+Abbreviation.
 Also, remember that we type both of this, just above the ending segment of the <body> tag.
 
-Without loading the pages, whatever actions are responded with a response/answer from a server, back to the client, is what JS is all about.
+Without loading the pages, whatever actions are responded with a response/answer from a server, back to the client, is what JS 
+is all about.
