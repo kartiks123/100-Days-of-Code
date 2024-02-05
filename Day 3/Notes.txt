@@ -21,4 +21,5 @@ just below the title.
 One more thing,
 We might see things like - lang="en", src=""; these are key value pairs that work like attributes.
 
-We got to learn about how to set our IPV4 in our Live Preview : Host IP settings, to showcase our HTML page on our mobile phones, using IP addresses.
+We got to learn about how to set our IPV4 in our Live Preview : Host IP settings, to showcase our HTML page on our mobile phones, 
+using IP addresses.
