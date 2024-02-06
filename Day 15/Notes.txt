@@ -15,3 +15,4 @@ So in order to not fall under this, we use Internal CSS, in the same HTML page.
 But there might be cases due to which, using Internal CSS will make our HTML page bigger.
 So we use External CSS for the purpose, to create a separate stylesheet and link it to that HTML page.
 
+For smaller scale, you can use Inline as well as Internal CSS, but it is recommended to always go for External CSS.
