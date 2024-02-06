@@ -5,3 +5,7 @@ There are 3 ways to link CSS with HTML :
 
 Inline CSS is a way to present (style) your elements in a HTML file, in one line at a time. We use "style" attribute for this
 purpose. And, this style attribute should be used in the place of the HTML element which we want to style.
+
+Internal CSS is a way to present (style) your elements in a HTML file, by creating a selector for that element.
+
+The main difference between these two is that 
