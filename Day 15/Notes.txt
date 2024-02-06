@@ -8,4 +8,10 @@ purpose. And, this style attribute should be used in the place of the HTML eleme
 
 Internal CSS is a way to present (style) your elements in a HTML file, by creating a selector for that element.
 
-The main difference between these two is that 
+The main difference between these two is that we have to individually go for each tag and change its style attribute individually
+if we are doing Inline CSS.
+So in order to not fall under this, we use Internal CSS, in the same HTML page.
+
+But there might be cases due to which, using Internal CSS will make our HTML page bigger.
+So we use External CSS for the purpose, to create a separate stylesheet and link it to that HTML page.
+
