@@ -1,0 +1,7 @@
+There are 3 ways to link CSS with HTML :
+1) Inline CSS : This is used in an HTML page using style attributes.
+2) Internal CSS : It means to add a style tag and place the HTML page's style within it.
+3) External CSS : It means to create a .css file and place all your styles inside that .css file.
+
+Inline CSS is a way to present (style) your elements in a HTML file, in one line at a time. We use "style" attribute for this
+purpose. And, this style attribute should be used in the place of the HTML element which we want to style.
