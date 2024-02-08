@@ -1,0 +1,26 @@
+CSS Selectors :
+They allow us to choose specific elements and apply styles to them.
+We select elements by name or class.
+
+If we want only a particular section of div element to be selected by us and get styled, then we can use classes or id for this
+purpose.
+
+class="division1"
+id="division1"
+
+You can use class as many times as possible but id can be used only 1 time.
+That means, classes can be referred multiple times but id's can only be referred one time.
+
+There are also child selectors.
+This means that you can select an element inside another element, by selecting it as - "one element" > "second element"
+
+Then there are also Descendant selector.
+It is a way to select elements that are located somewhere underneath other elements.
+Eg - is shown in HTML page
+
+Child selector should be a direct child element under the parent element. Like we did in the example shown.
+Where paragraph element was under the div element.
+But...
+Descendant selector is used in the case when there is an element present anywhere within the parent element.
+So, we can use that directly.
+
