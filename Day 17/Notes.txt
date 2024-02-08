@@ -24,3 +24,5 @@ But...
 Descendant selector is used in the case when there is an element present anywhere within the parent element.
 So, we can use that directly.
 
+There are many selectors in HTML. But the main ones are these only.
+
