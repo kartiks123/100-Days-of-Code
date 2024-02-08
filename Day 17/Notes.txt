@@ -8,6 +8,9 @@ purpose.
 class="division1"
 id="division1"
 
+Here is the reference link for both, Classes and ID :
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_id_class
+
 You can use class as many times as possible but id can be used only 1 time.
 That means, classes can be referred multiple times but id's can only be referred one time.
 
