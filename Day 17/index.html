@@ -26,9 +26,33 @@
         * {
             padding : 5px;
         }
+
+        a:visited {
+            color:blue
+        }
+
+        a:link {
+            color:green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: yellow;
+        }
+
+        p:first-child {
+            background-color: aqua  ;
+        }
     </style>
 </head>
 <body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
     <div class="division1">
         Hey, I am getting coloured, in a few minutes.
         <p>I am getting some special effects.</p>
@@ -41,5 +65,9 @@
             <p>Hey, I am a paragraph</p>
         </article>
     </div>
+    <span>
+        <a href="https://www.google.com">Go to Google</a>
+        <a href="https://www.facebook2.com">Go to Facebook</a>
+    </span>
 </body>
 </html>

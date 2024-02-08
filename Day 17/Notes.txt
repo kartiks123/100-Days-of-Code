@@ -29,3 +29,17 @@ So, we can use that directly.
 
 There are many selectors in HTML. But the main ones are these only.
 
+Then there are Pseudo Selectors like - 
+a:hover
+a:active
+a:link
+a:visited
+
+This can only work if you have created anchor tags first.
+
+Then there are another type of Pseudo Selector : as shown in Eg.
+Through it, let's understand it first.
+
+We have created a "p:first-child". This tells us that we are going to apply the style or make the changes only to the first 
+appearance of the child class, inside a particular parent class. And the rest of its elements (child elements) are not going 
+to be affected by the change.
