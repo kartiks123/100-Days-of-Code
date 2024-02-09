@@ -25,3 +25,6 @@ Then you can call both of these styles by calling the universal selector, under 
 Also remember, that we can give multiple classes to the same HTML element, but we can't give multiple id's to the same HTML
 element.
 
+Hence, we can set the overall bg-color of both the boxes to 1 color, and then change the font color of both the individual 
+elements separately by calling out their own made classes.
+
