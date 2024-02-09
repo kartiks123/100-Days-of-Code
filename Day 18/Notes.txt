@@ -45,3 +45,16 @@ Eg- as shown in code.
 
 Sometimes, due to DPI factor, our border pixels might show different than what they usually tends to show.
 
+By default, the width and height of an element is calculated like this:
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+
+To get the actual height and width of the CSS element, we use Box-Sizing 
+(here is the reference link : https://www.w3schools.com/css/css3_box-sizing.asp)
+
+The box-sizing property allows us to include the padding and border in an element's total width and height.
+
+This tells us that margin is not included whenever we give height and width to an element.
+If we don't include this, we are showing the width and height of the content part only. Not content+border+padding.
+Box size gives us that.
+
