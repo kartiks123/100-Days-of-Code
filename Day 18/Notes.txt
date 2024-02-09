@@ -28,3 +28,18 @@ element.
 Hence, we can set the overall bg-color of both the boxes to 1 color, and then change the font color of both the individual 
 elements separately by calling out their own made classes.
 
+Now, coming back to BOX MODEL :
+(here is the reference link : https://www.codewithharry.com/tutorial/css-box-model/)
+
+The total width and height of the element is calculated with the formula:
+Total Width = Width + Left Padding + Right Padding + Left Border + Right Border + Left Margin + Right Margin
+Total Height = Height + Top Padding + Bottom Padding + Top Border + Bottom Border + Top Margin + Bottom Margin
+
+NOTE: 
+
+The background color that we apply to the element that we are styling, gets coloured within the "padding" region, not the 
+"margin" region.
+Eg- as shown in code.
+
+Sometimes, due to DPI factor, our border pixels might show different than what they usually tends to show.
+
