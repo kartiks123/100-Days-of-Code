@@ -35,7 +35,9 @@ The total width and height of the element is calculated with the formula:
 Total Width = Width + Left Padding + Right Padding + Left Border + Right Border + Left Margin + Right Margin
 Total Height = Height + Top Padding + Bottom Padding + Top Border + Bottom Border + Top Margin + Bottom Margin
 
-NOTE: 
+NOTE: (MAGIC)
+When viewing your website, go to inspect and then after selecting your element, click on "computed" button next to style.
+You can view your margin, padding and border pixels in real-time.
 
 The background color that we apply to the element that we are styling, gets coloured within the "padding" region, not the 
 "margin" region.
