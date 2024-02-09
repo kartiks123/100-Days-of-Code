@@ -58,3 +58,6 @@ This tells us that margin is not included whenever we give height and width to a
 If we don't include this, we are showing the width and height of the content part only. Not content+border+padding.
 Box size gives us that.
 
+Margin-Collapse is used to tell the browser to apply the largest margin number, in between 2 CSS elements.
+(here is the reference link : https://www.w3schools.com/css/css_margin_collapse.asp)
+(https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40rp.verstraten%2Fvertical-margin-collapse-8cd38f46997b&psig=AOvVaw0cWZ7frII9h7CD24w1Bfd4&ust=1707544744218000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLiA1oHKnYQDFQAAAAAdAAAAABAE)
