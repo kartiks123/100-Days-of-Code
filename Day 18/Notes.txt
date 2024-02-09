@@ -1,0 +1,27 @@
+CSS Box Model:
+Where the margin, border and padding are set inside the element of the whole HTML website.
+This shows like a box so that's why it has been named to a box model of the Web D.
+
+In this, our every element that we use in our Web D designing is made, under a single box design.
+This box design consists of several things:
+
+1) Content : 
+
+2) Padding : 
+
+3) Margin : 
+
+4) Border : 
+
+There is a default padding and margin set by the browser, which gives some space and look to the content that we add in our
+front-end.
+
+We can also set up different classes under the same category and still call both of those, using the common parent class-name.
+Eg- 
+<div class="box box1">I am a box</div>
+<div class="box box2">I am also a box</div>
+
+Then you can call both of these styles by calling the universal selector, under style attribute.
+Also remember, that we can give multiple classes to the same HTML element, but we can't give multiple id's to the same HTML
+element.
+
