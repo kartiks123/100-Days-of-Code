@@ -69,3 +69,15 @@ the HTML element.
 
 Text-Align :
 It is used to align the arrangement of HTML element.
+
+
+
+Now, let's move on to COLOR :
+
+There are certain color codes or names that we might be thinking of but they are not available by the name that they go.
+So we use certain color codes or names to tell them apart.
+Reference link : https://codepen.io/web-dot-dev/pen/ZELGraM
+
+Here we can set the color of the text as RGBA also.
+Here A stands for Alpha, which is used to set up the opacity of the color-styling.
+It's value ranges between 0 to 1.
