@@ -1,0 +1,29 @@
+We can do many things with FONTS in HTML.
+
+Font-Family :
+This is used to change the font stlying of the text that you are writing.
+
+You can give more than 1 font-styling. This is done in cases when the first font style does not run properly, or is not 
+fully compatible at the user's end. Just write them with all of them, separated by comma.
+
+We also have to include 1 generic font style so that it runs on all the system. One such example of that font is "Times New
+Roman".
+
+Font-Style:
+It is set to italic, oblique.
+
+Font-Weight:
+It is set to make our texts bold.
+
+Text-Decoration:
+To make our text, underline, overline, etc.
+
+Here is the reference link : https://codepen.io/web-dot-dev/pen/yLojraG
+
+You can put take your fonts from Google Fonts, in 2 ways :
+1) One you can select it as link.
+Through that, you just have to copy and paste the link given under it, to the HTML head tag.
+One done, copy and paste the css file also.
+2) The second way is to use import the style tag code and then paste the css code in the stylesheet.
+
+In this way you can include many font import or links at the same time.
