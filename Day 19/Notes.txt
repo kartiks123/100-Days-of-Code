@@ -38,3 +38,18 @@ Similarly,
 Letter Spacing :
 It is used to add spaces in between each letter. For eg, the space between the two words - "s s", is of 1 space.
 
+Text-Transform :
+It is used to change the way in which the heading (mostly, headings) are represented to us.
+We can make it UPPERCASE, lowercase, Capitalize, etc.
+
+Text-Decoration :
+The way in which we underline, overline, etc. do things like these over a text.
+We can also perform various properties over the text-decoration elements.
+Follow the eg, shown in CSS.
+
+Text-Decoration Style :
+It is made to change the behavior of the Text-Decoration elements further down the road.
+
+Text Decoration Thickness :
+It is used to tell about the thickness of the element that we are going to use.
+

@@ -18,10 +18,14 @@ h4 {
 h2 {
     font-size:20px;
     /*font-size:large;*/
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: double;
+    text-decoration-thickness: 7px;
 }
 
 article {
     line-height: 4;
     letter-spacing: 5px;
+    text-transform: none;
 }
-
