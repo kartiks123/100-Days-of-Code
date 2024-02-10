@@ -80,4 +80,8 @@ Reference link : https://codepen.io/web-dot-dev/pen/ZELGraM
 
 Here we can set the color of the text as RGBA also.
 Here A stands for Alpha, which is used to set up the opacity of the color-styling.
-It's value ranges between 0 to 1.
+It's value ranges between 0 to 1.4
+
+Then there is also HSL, which stands for Hue, Saturation ande Lightness.
+Reference Link : https://www.w3schools.com/css/css_colors_hsl.asp
+There is also, HSLA. You can guess this :)
