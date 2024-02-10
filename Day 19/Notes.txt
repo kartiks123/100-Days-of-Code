@@ -27,3 +27,10 @@ One done, copy and paste the css file also.
 2) The second way is to use import the style tag code and then paste the css code in the stylesheet.
 
 In this way you can include many font import or links at the same time.
+
+Font-Size :
+By using font-size, you can set up the size of your font that you are adding in your HTML page.
+
+Line Height :
+Line Height is something that adds space between the content of 2 lines, written top and bottom of each other.
+Eg- Check out the article tag for example.
