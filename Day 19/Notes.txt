@@ -63,3 +63,9 @@ to the users, who are viewing it.
 Also, we saw how we made the content hidden inside it by using 'text-overflow:ellipsis' and 'overflow:hidden'.
 We can make it visible till it's edge space, by using 'text-overflow:clip' and 'overflow:hidden'.
 
+Word-Break :
+It is used to display the specific word style that you want. It helps us to retain the alignment of the elements written, inside 
+the HTML element.
+
+Text-Align :
+It is used to align the arrangement of HTML element.
