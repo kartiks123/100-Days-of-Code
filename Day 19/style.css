@@ -6,6 +6,10 @@ p {
     font-style: italic;
     font-weight:900;
     text-decoration: underline;
+    border: 2px solid red;
+    width: 45px;
+    text-overflow: ellipsis; /* text-overflow: clip; - use this command and see how the text changes within the border. */
+    overflow: hidden;
 }
 
 h4 {
@@ -22,6 +26,7 @@ h2 {
     text-decoration-color: aqua;
     text-decoration-style: double;
     text-decoration-thickness: 7px;
+    text-indent: 500px; /* with this, the text is appearing at them middle */
 }
 
 article {

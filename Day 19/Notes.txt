@@ -37,6 +37,7 @@ Eg- Check out the article tag for example.
 Similarly, 
 Letter Spacing :
 It is used to add spaces in between each letter. For eg, the space between the two words - "s s", is of 1 space.
+For reference: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
 
 Text-Transform :
 It is used to change the way in which the heading (mostly, headings) are represented to us.
@@ -52,4 +53,13 @@ It is made to change the behavior of the Text-Decoration elements further down t
 
 Text Decoration Thickness :
 It is used to tell about the thickness of the element that we are going to use.
+
+Text-Indent :
+Text indent is used to add spaces horizontally, from the left, in the text.
+
+Text-Overflow :
+We saw how text-overflow was used through the example where we got to know about how if certain element, can be made visible
+to the users, who are viewing it.
+Also, we saw how we made the content hidden inside it by using 'text-overflow:ellipsis' and 'overflow:hidden'.
+We can make it visible till it's edge space, by using 'text-overflow:clip' and 'overflow:hidden'.
 
