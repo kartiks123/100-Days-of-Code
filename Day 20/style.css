@@ -1,0 +1,9 @@
+div:first-child {
+    background-color: yellow;
+    color: red;
+}
+
+div {
+    background-color: blue;
+    color: white;
+}
