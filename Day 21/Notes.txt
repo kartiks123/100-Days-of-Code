@@ -90,3 +90,8 @@ Specificity Calculation : To calculate specificity, assign a value to each part 
 5) Inline styles: 1000
 (This is just for knowledge)
 
+Here is the reference link : https://www.youtube.com/watch?v=uTcpbPMZlFE&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=21
+
+!important : contains specificity of about 10,000 points.
+
+So we do specificity to ensure that our correct styling is represented to us.

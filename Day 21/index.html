@@ -11,6 +11,11 @@
             background-color: yellow;
         }
 
+        /* The specificity of this selector is 1+10=11 */
+        h1.hi {
+            background-color: chartreuse;
+        }
+
         /* The specificity of this selector is 10, as its a class */
         .hey {
             background-color: aqua;
@@ -25,6 +30,18 @@
         .hi {
             background-color: red !important;
             background-color: brown;
+        }
+
+        /* The Task which is give to us is to find the specificity of this 
+        a is anchor tag, so s=1
+        harrclass is class tag, so s=10
+        rohan-class is class tag, so s=10
+        [href] is an attribute selector, so s=10
+        :hover is a pseduo-class, so s=10.
+        Total s=41.
+        */
+        a.harryclass.rohan-class[href]:hover {
+            color: red;
         }
     </style>
 </head>
