@@ -9,3 +9,63 @@ The cascade algorithm has 4 distinct stages:
 or your authored CSS
 4) Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
 
+Proofs of each case :
+1)
+In the first case, we have elements arranged as :
+<style>
+        
+    h1 {
+        background-color: yellow;
+    }
+
+   .hey {
+        background-color: aqua;
+    }
+        
+    .hi {
+        background-color: red;
+    }
+
+    .hello {
+        background-color: blue;
+    }
+
+</style>
+
+and the classes as :
+<div>
+    <h1 class="hey hi hello">CSS Specificity</h1>
+</div>
+
+First, we see that all of them are classes. So they share the same responsibility.
+Now, according to this, the class selector written at the last (latest value) is considered and prioritised, and so the bg-color
+changes according to that.
+The bg-color is blue now.
+
+but when we change the css style to  :
+    h1 {
+            background-color: yellow;
+    }
+
+    .hey {
+        background-color: aqua;
+    }
+        
+    .hello {
+        background-color: blue;
+    }
+        
+    .hi {
+        background-color: red;
+    }
+
+The color changes to red.
+
+3) 
+The Position where the element is added, also affects the styling of the page.
+Eg- shown above for last element of "red".
+
+2)
+Specificity is important in places where we want to consider and favour the element which has the most thing specified, in the 
+best way.
+
