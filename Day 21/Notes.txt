@@ -60,12 +60,25 @@ but when we change the css style to  :
     }
 
 The color changes to red.
-
-3) 
+ 
 The Position where the element is added, also affects the styling of the page.
 Eg- shown above for last element of "red".
 
 2)
 Specificity is important in places where we want to consider and favour the element which has the most thing specified, in the 
 best way.
+So, the order of specificity is:
+Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+
+3)
+Order is something that is done from the browser end automatically, if no syling is provided. 
+A browser has its own set of order and preference when it comes to do the task at its own side.
+It applies "user agent stylesheet" on it.
+If we write our own stylesheet, then it simply, overwrites the user agent stylesheet.
+
+4)
+The !important flag in CSS is used to give a particular style rule the highest level of importance, overriding any other 
+competing styles, even Inline Styling. When you add !important to a CSS rule, it will take precedence over other rules affecting the same element, 
+regardless of their specificity.
+Eg- shown in code.
 
