@@ -1,9 +1,36 @@
 There are many units by using which you can, set the dimensions of the CSS element that you are adding to your website.
 
-Pixels (px):
+1) Pixels (px):
 Pixels is 1/96th of an inch (0.26 mm).
 So if you give the full pixel length of your native resolution, it will cover the full screen resolution.
-Eg- my device's resolution is 1920x1080.
+Eg- my device's resolution is 1366x768.
+Hence, I will set the width of my screen to that and it will show correctly when I will view the content of that element.
 
+If we give more than what our resolution is, then scroll bar will appear, indicating that you have to navigate your screen 
+to view more of the content ahead. And that, at times, is not required because it makes the website look bad.
 
-If we give more than 
+So, there might be times when we have to use a more, better, responsive unit.
+
+2) Viewport Width (vw):
+The width of the element will be equal to the viewport of the device, horizontally.
+So we just give it, width: 100vw;
+
+Here is the reference link to understand the styling difference between both the paragraphs, under div element :
+https://www.w3schools.com/cssref/sel_nth-of-type.php
+
+Remember :
+You cannot set the width for inline elements. You can only do that for block level elements.
+
+3) margin : auto
+This element is used to set the CSS element within the website, in an equal portion from all sides.
+If for eg, we are providing like "margin: 23 px auto;", it will set the margin from top and bottom and will set it to middle
+because of 'auto'.
+
+4) Viewport Height (vh):
+The height of the element will be equal to the viewport of the device, vertically.
+So we just give it, 'height: 80vw;'.
+
+5) Emphasized Text (em) :
+The Emphasized Text is equal to the current font-size, for instance, if the font-size of the document is 12pt, 1em is equal to 
+12pt. Ems are scalable in nature, so 2em would equal 24pt, . 5em would equal 6pt, etc.
+
