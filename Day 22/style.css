@@ -25,3 +25,10 @@ div > p:nth-of-type(3) {
     box-sizing: border-box;
     font-size: 2em;
 }
+
+.mycont {
+    background-color: red;
+    color: yellow;
+    font-size: 22px;
+    width: 100vmin;
+}

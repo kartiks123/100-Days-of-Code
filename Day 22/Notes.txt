@@ -34,3 +34,15 @@ So we just give it, 'height: 80vw;'.
 The Emphasized Text is equal to the current font-size, for instance, if the font-size of the document is 12pt, 1em is equal to 
 12pt. Ems are scalable in nature, so 2em would equal 24pt, . 5em would equal 6pt, etc.
 
+6) Root Emphasized Text (rem) :
+The Root Emphasized Text is used to set the size of the font equal to what the root element size was.
+For eg, if html {font-size: 8px}; , then we can set the p{font-size : 2rem};. This will now set the paragraph font size to 16px.
+
+7) Vmin and Vmax :
+When you the view the contents of the file from your laptop and mobile, you see the elements in the website very differently from 
+both of them.
+If you view the website from your laptop, the element in width is bigger than height. But in phones, this is vice versa.
+So in phone, our Vmin is width. But in laptop, our Vmin is height.
+
+Eg- 100 Vmin
+This means that 100th of whatever height or widhth is minimum.
