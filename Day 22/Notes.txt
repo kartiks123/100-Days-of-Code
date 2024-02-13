@@ -59,3 +59,8 @@ Then we have 2 more such elements which are very useful :
 These are used to allot at least a minimum amount of width or height to your CSS elements.
 It doesn't matter how much content is there, but at least you will have a minimum bar set.
 
+9) % :
+We can set the height or width of the parent element by using %. 
+Eg- 'width: 50%'
+% is used when we have knowledge about what we are doing :). If we know that we have set the height and width of our parent, 
+then only we should set our width and height using %.
