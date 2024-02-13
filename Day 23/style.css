@@ -1,0 +1,17 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+div {
+    border: 2px solid green;
+    padding: 45px;
+    margin : 34px;
+    width: 344px;
+    /* display: inline; 
+    While following through this and not display: inline-block, we were not getting the padding that we needed from top of 45px
+    So we need to convert its root back to the block level element, although we made it as an inline element.*/
+    display: inline-block;
+    /* After setting this to inline, it will show us with the inline element.  */
+}
+

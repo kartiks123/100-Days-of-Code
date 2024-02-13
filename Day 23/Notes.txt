@@ -1,0 +1,12 @@
+We know that there are certain elements which are block level elements. For eg- div.
+But what if I told you, that you can convert it into an inline element.
+
+We can do so, by changing the styling of "display:inline".
+
+
+In this property though, if we try to set our padding, margin and width, the browser won't respond to our needs/changes.
+Why does this happens ?
+This happens because these element changers does not respect the styling of an inline element (now that you have changed the 
+display to inline through 'display:inline', it will respond as an inline element, not as a block element.)
+
+Hence, in order to get a remedy, we use 'display:inline-block".
