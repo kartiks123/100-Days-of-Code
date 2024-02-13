@@ -1,0 +1,9 @@
+There are many units by using which you can, set the dimensions of the CSS element that you are adding to your website.
+
+Pixels (px):
+Pixels is 1/96th of an inch (0.26 mm).
+So if you give the full pixel length of your native resolution, it will cover the full screen resolution.
+Eg- my device's resolution is 1920x1080.
+
+
+If we give more than 
