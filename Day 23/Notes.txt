@@ -19,6 +19,8 @@ Hence, in order to get a remedy, we use 'display:inline-block".
     /* visibility: hidden; */
 }
 
-This will try to remove the border of the first element of div and make it invisible.
+Display:None will remove the space as well as the box of the first element of div and make it invisible.
 But keeping in mind, that sometimes we don't want other elements to occupy that space and let it exist, without showing the 
 element, therefore, we have made the visibility: hidden.
+
+Here is the resource link for more such display properties : https://developer.mozilla.org/en-US/docs/Web/CSS/display
