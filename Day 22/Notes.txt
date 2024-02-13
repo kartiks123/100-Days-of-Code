@@ -53,3 +53,9 @@ Therefore, it will apply 100th of height on that element, which is equivalent to
 These are not in much use, but we need to know about these.
 Here is the reference link for that: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
 
+Then we have 2 more such elements which are very useful :
+
+8) min-width and min-height: 
+These are used to allot at least a minimum amount of width or height to your CSS elements.
+It doesn't matter how much content is there, but at least you will have a minimum bar set.
+

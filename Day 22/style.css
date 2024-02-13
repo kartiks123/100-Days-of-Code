@@ -33,4 +33,5 @@ div > p:nth-of-type(3) {
     color: yellow;
     font-size: 22px;
     width: 100vh;
+    min-height: 80vh;
 }
