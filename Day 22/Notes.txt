@@ -46,3 +46,10 @@ So in phone, our Vmin is width. But in laptop, our Vmin is height.
 
 Eg- 100 Vmin
 This means that 100th of whatever height or widhth is minimum.
+
+So in case I have my laptop, and I am providing "width: 100vmin;", so in my case, my Vmin is height (of my laptop).
+Therefore, it will apply 100th of height on that element, which is equivalent to 100vh.
+
+These are not in much use, but we need to know about these.
+Here is the reference link for that: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+

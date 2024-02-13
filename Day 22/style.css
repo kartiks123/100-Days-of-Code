@@ -28,7 +28,9 @@ div > p:nth-of-type(3) {
 
 .mycont {
     background-color: red;
+    border: 2px solid black;
+    margin: 23px auto;
     color: yellow;
     font-size: 22px;
-    width: 100vmin;
+    width: 100vh;
 }
