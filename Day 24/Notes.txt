@@ -1,4 +1,5 @@
-Box-shadow is a popular CSS property that enables designers to add shadow effects around an element's frame. It can be used to 
+Box-Shadow:
+It is a popular CSS property that enables designers to add shadow effects around an element's frame. It can be used to 
 give any element, be it a div, image, or button, a 3D feel or to emphasize on hover.
 
 "box-shadow: h-offset v-offset blur spread color inset;"
@@ -11,3 +12,19 @@ inset: Makes the shadow inner.
 
 Here is an example:
 .div-element { box-shadow: 5px 5px 15px 5px #888888; }
+
+Best usage of these is through INSPECT button on browser. There you can set the values directly and then copy and paste it back 
+to your source code.
+
+
+Outlines:
+An outline is a line that is drawn around elements, outside the borders, to make the element "stand out". It's commonly used for 
+accessibility purposes, like highlighting focused elements.
+
+The Syntax for Outlines is as follows:
+"outline: width style color;"
+width: Sets the outline width.
+style: Determines the style of the outline such as solid, dotted, or dashed.
+color: Sets the outline color.
+
+But hey, this is same as border.

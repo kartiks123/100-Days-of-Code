@@ -3,3 +3,9 @@
     border : 2px solid black;
     box-shadow: 5px 5px 15px 5px #53913a;
 }
+
+p {
+    padding : 35px;
+    border: 2px solid black;
+    text-shadow: 2px 2px 4px #e91212;
+}
