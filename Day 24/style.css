@@ -6,6 +6,8 @@
 
 p {
     padding : 35px;
-    border: 2px solid black;
     text-shadow: 2px 2px 4px #e91212;
+    outline: 2px solid blue;
+    border: 2px solid black;
+    outline-offset: 50px;
 }

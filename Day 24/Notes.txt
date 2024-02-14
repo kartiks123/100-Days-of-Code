@@ -28,3 +28,11 @@ style: Determines the style of the outline such as solid, dotted, or dashed.
 color: Sets the outline color.
 
 But hey, this is same as border.
+
+Difference between outline and border: 
+Position: Outlines don't take up space; they're drawn around the element, outside of any border.
+Offset: Using the outline-offset property, you can set the space between an outline and the edge or border of an element.
+Width: Borders can have varying widths on different sides, outlines have a uniform width.
+Rounded Corners: Borders can have rounded corners using border-radius, while outlines generally cannot.
+
+Outline offset is used to increase the range (doori) of the outline element from the content.
