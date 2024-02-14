@@ -1,0 +1,13 @@
+Box-shadow is a popular CSS property that enables designers to add shadow effects around an element's frame. It can be used to 
+give any element, be it a div, image, or button, a 3D feel or to emphasize on hover.
+
+"box-shadow: h-offset v-offset blur spread color inset;"
+
+h-offset and v-offset: Determines the shadow's horizontal and vertical position.
+blur: The larger the value, the blurrier the shadow.
+spread: Expands or shrinks the shadow size.
+color: Defines the shadow color.
+inset: Makes the shadow inner.
+
+Here is an example:
+.div-element { box-shadow: 5px 5px 15px 5px #888888; }
