@@ -11,3 +11,5 @@ We should use list-style-position.
 
 Here we can also replace the marker style from the default bullet pointer to an image, using 'list-style-image'.
 
+You can even set an emoji as a list-style-type to make your content more attractive.
+
