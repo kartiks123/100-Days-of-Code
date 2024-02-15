@@ -1,0 +1,6 @@
+Whenever we are using Navigation Bar, there is 70-80% chance that we will want to style our lists.
+
+By default, we have a display property, which is set to "list-item".
+-> 'display: list-item'
+Through this, we will have a default marker ( a bullet point ) and the written context in front of it.
+
