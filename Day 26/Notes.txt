@@ -18,3 +18,7 @@ rest of the content.
 
 test-overflow: ellipsis; is used if you want to show the rest of the content as '...', after it has reached the edge.
 
+overflow: clip will not allow you to scroll + it will hide the content after it has reached the edge.
+
+We can set the overflow for both y and x axis too. 
+Use overflow-y and overflow-x for this purpose.

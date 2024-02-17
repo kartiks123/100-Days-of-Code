@@ -3,11 +3,19 @@
     height: 40vh;
     border: 2px solid black;
     overflow: scroll;
+    /*
     white-space: nowrap;
+    */
     /* 
     Do the following to view the content as dotted (...) and hidden :
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     */
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    /* This x and y property can be combinly set through setting like this - 'overflow : hidden auto', i.e., hidden for x and 
+       auto for y */
 }
