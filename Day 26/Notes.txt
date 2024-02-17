@@ -1,0 +1,15 @@
+When we run the code with CSS styling done to -
+.box {
+    width: 10vw;
+    height: 40vh;
+    border: 2px solid black;
+}
+
+, it will show our content as overflowed, i.e., out of the box.
+
+We can resolve it in two ways :
+1) either using scroll button through - 'overflow: scroll;'.
+
+overflow: auto is used for those cases, when we want a scroll bar to show, only when the content has overflown in the box.
+
+2) or using horizontal spacing only through - 'white-space: nowrap;'.

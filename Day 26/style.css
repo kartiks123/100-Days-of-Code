@@ -1,0 +1,7 @@
+.box {
+    width: 10vw;
+    height: 40vh;
+    border: 2px solid black;
+    overflow: scroll;
+    white-space: nowrap;
+}
