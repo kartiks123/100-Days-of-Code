@@ -13,3 +13,5 @@ We can resolve it in two ways :
 overflow: auto is used for those cases, when we want a scroll bar to show, only when the content has overflown in the box.
 
 2) or using horizontal spacing only through - 'white-space: nowrap;'.
+Along with this, the text won't be in another line. It will remain in a single line and horizontal bar will appear to view the
+rest of the content.
