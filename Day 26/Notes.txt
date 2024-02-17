@@ -22,3 +22,5 @@ overflow: clip will not allow you to scroll + it will hide the content after it 
 
 We can set the overflow for both y and x axis too. 
 Use overflow-y and overflow-x for this purpose.
+
+'overflow:auto' is best considered as it allows us to use scroll bar, only if it is needed !
