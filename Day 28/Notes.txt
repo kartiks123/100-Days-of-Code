@@ -18,3 +18,5 @@ Position Absolute set an element to the "nearest position ancestor". Also, this 
 position.
 It also acts like, the element on which this is set, was never there in the first place, i.e., it never existed.
 
+Note : If you make the position of the "parent" element to absolute, now elements from all box elements, will set according to 
+the parent (papa) class, not the html class (par dada).

@@ -19,6 +19,9 @@
 
 .box1 {
     background-color: red;
+    position: relative;
+    top: 55px;
+    left:10px;
     
 }
 
