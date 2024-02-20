@@ -14,6 +14,7 @@ Setting position to relative, indicate that we are making our box move, with res
 2) Z:Index :
 Z indexing is done to make a certain element appear on top or behind of other elements.
 Remember, it can only be set, when the position is something other than static.
+Fact to Remember : More the index value, more it will be in front.
 
 3) Position:Absolute :
 Position Absolute set an element to the "nearest position ancestor". Also, this element does not need to be static in its 
@@ -26,3 +27,17 @@ the parent (papa) class, not the html class (par dada).
 4) There are some content in our website, which we want their position to stay fixed at a single place, even if we scroll.
 In this case, we use position:fixed.
 
+5) position:sticky is used to mark the element in a certain position after we crossed the normal, static position of the 
+element.
+Eg - When we want to ask a user, to accept or reject cookies.
+
+
+
+Exception properties :
+
+Transform, Filter or Perspective properties can also make an element appear as positioned.
+a) transform:translate(0); sets the position relative to the nearest ancestor element. In this case, the "parent" class.
+b) filter:invert(); will invert (change) the color of the element it is set to.
+c) perspective: 0em; will set the same as 'position:relative' or 'transform:translate(0)'
+
+These will be discussed more in detail later.
