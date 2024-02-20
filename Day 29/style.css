@@ -1,0 +1,59 @@
+.papa {
+    /*padding: 40px 50px 10px 50px;*/
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20vw;
+    height: 105vh;
+    margin: auto;
+}
+
+.image {
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    padding: 5px 10px 5px 10px;
+}
+
+p {
+    text-align: left;
+    color: rgb(145, 142, 140);
+    padding: 0px 20px 0px 20px;
+}
+
+.doubbox {
+    padding : 0px 10px 0px 10px;
+}
+
+.nat {
+    
+    display: inline;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 5px 10px 5px 10px;
+    color: rgb(145, 142, 140);
+}
+
+.lak {
+    display: inline;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 5px 10px 5px 10px;
+    color: rgb(145, 142, 140);
+}
+
+.butt {
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(52, 139, 240);
+    background-color: rgb(182, 202, 211);
+    font-weight: 550;
+    text-align: center;
+    /* The reason your "Read More" button is not centered is likely due to the width you've set for the .papa class in your 
+    CSS file. Specifically, the width of 20vw is limiting the space available for the content inside the .papa div, causing 
+    the button to appear off-center. 
+    Hence, use the following property to outcome this problem (taken help of only this, from ChatGPT */
+    margin: auto;
+    display: block;
+}
