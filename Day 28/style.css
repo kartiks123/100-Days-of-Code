@@ -22,7 +22,6 @@
     position: relative;
     top: 55px;
     left:10px;
-    
 }
 
 .box2 {
@@ -34,6 +33,10 @@
 
 .box3 {
     background-color: yellow;
+    position: fixed;
+    bottom: 250px;
+    left: 8wh;
+    height: 111px;
 }
 
 .box4 {
