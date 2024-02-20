@@ -1,0 +1,20 @@
+When we want to move an element from its original position to 3px downwords, we can use 'position : relative' and then 
+define 'top: 3px;' to tell it to move 3 pixels downwards.
+
+Using z-index, you can move each image, on top of each other.
+
+Whatever boxes we make in HTML, their position are static. This means that on them, we can't apply z-indexing on top, bottom, 
+left or right.
+
+Position:Relative :
+Setting position to relative, indicate that we are making our box move, with respect to its own, relative (original) position.
+
+Z:Index :
+Z indexing is done to make a certain element appear on top or behind of other elements.
+Remember, it can only be set, when the position is something other than static.
+
+Position:Absolute :
+Position Absolute set an element to the "nearest position ancestor". Also, this element does not need to be static in its 
+position.
+It also acts like, the element on which this is set, was never there in the first place, i.e., it never existed.
+

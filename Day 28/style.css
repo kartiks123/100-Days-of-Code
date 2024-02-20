@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    margin: 50px;
+    padding: 75px;
+    border: 10px solid black;
+}
+
+.box {
+    border: 2px solid black;
+    width: 1000px;
+    height: 100px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.box1 {
+    background-color: red;
+    
+}
+
+.box2 {
+    background-color: orange;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+.box3 {
+    background-color: yellow;
+}
+
+.box4 {
+    background-color: green;
+    position: relative;
+    z-index: 1; 
+    /* It is used to set the appearance of the element. 
+    If sent to 1, the element on which it is applied appears or front. If 0, then it appears behind (as it was) */
+}
+
+.box5 {
+    background-color: blue;
+    position: static; /* Default value */
+}
+
+.box6 {
+    background-color: blueviolet;
+    position: relative;
+    top: -200px;
+    left: 100px;
+    /* Either set it to top or bottom, or, left or right */
+}
+
+p {
+    font-size: 100px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin: 40px;
+}
