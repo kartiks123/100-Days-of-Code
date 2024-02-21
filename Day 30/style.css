@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+:root { 
+    --color: rgb(138, 169, 173);
+    --seccolor: rgb(224, 205, 93);
+}
+
 .box {
     /* background-color: green; */
     background-color: var(--color);    
@@ -20,9 +25,12 @@ ul {
 ul li {
     padding: 35px;
     list-style: none;
+    border: 2px solid var(--color);
 }
 
-:root { 
-    --color: yellow;
-    --seccolor: rgb(224, 205, 93);
+ul li:first-child {
+    --color: rgb(255, 115, 0); /* Now, this is a local variable here, so it will override the global variable values and  
+                                    display this instead of yellow. */
+    background-color: var(--color, blue); /* If the local variable is not defined, then it will display the global 
+                                               variable value. */
 }
