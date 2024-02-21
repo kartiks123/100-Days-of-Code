@@ -6,6 +6,8 @@
 :root { 
     --color: rgb(255, 238, 0);
     --seccolor: rgb(224, 205, 93);
+    --defpad: 25px; /* setting the default padding of the element */
+    --defop: 0.3; /* setting the opacity of the element */
 }
 
 .box {
@@ -23,10 +25,13 @@ ul {
 }
 
 ul li {
-    padding: 35px;
+    /* padding: 35px; */
     list-style: none;
     border: 2px solid var(--seccolor);
     border-color: red; /* Add this line to change the border color to red */
+    padding: var(--defpad);
+    opacity: var(--defop);  
+    /* If we set here, opacity: 0.5, then this property will be applied as it is a local variable set exclusively for this */
 }
 
 ul li:first-child {
