@@ -1,0 +1,11 @@
+We can change the theme of the whole website using just one thing - VARIABLES !
+
+Note :
+ul li: This selector targets all li elements that are descendants of any ul element, regardless of how deeply nested they are 
+in the HTML structure. It will apply the specified styles to all li elements that are descendants of any ul element, even if 
+they are nested within other elements.
+
+ul > li: This selector targets only the li elements that are direct children of a ul element. It uses the child combinator > to 
+select only the immediate children of the ul, ignoring any li elements that are nested further down in the hierarchy. It will 
+apply the specified styles only to li elements that are immediate children of a ul element.
+

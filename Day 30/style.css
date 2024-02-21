@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    background-color: green;    
+}
+
+.container {
+    background-color: greenyellow;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 35px;
+    list-style: none;
+}
