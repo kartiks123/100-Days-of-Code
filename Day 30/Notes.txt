@@ -15,3 +15,4 @@ Whatever things that we include inside the :root, we consider it as a global var
 So, by using Variables, I can set the color of the elements without changing their individual colors. Instead, I can just go
 for changing the global variables, that I have set in the ':root'.
 
+Thus we can set the value of the 

@@ -4,7 +4,7 @@
 }
 
 :root { 
-    --color: rgb(138, 169, 173);
+    --color: rgb(255, 238, 0);
     --seccolor: rgb(224, 205, 93);
 }
 
@@ -25,7 +25,8 @@ ul {
 ul li {
     padding: 35px;
     list-style: none;
-    border: 2px solid var(--color);
+    border: 2px solid var(--seccolor);
+    border-color: red; /* Add this line to change the border color to red */
 }
 
 ul li:first-child {
