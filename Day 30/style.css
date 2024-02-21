@@ -4,11 +4,13 @@
 }
 
 .box {
-    background-color: green;    
+    /* background-color: green; */
+    background-color: var(--color);    
 }
 
 .container {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
+    background-color: var(--seccolor); 
 }
 
 ul {
@@ -18,4 +20,9 @@ ul {
 ul li {
     padding: 35px;
     list-style: none;
+}
+
+:root { 
+    --color: yellow;
+    --seccolor: rgb(224, 205, 93);
 }
