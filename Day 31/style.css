@@ -2,9 +2,17 @@ body {
     background-color: red;
 }
 
+.boxes {
+    display: flex;
+}
 
+@media screen and (orientation: portrait) {
+    body {
+        background-color: purple;
+    }
+}
 
-@media only screen and (max-width: 3036px) {
+@media only screen and (max-width: 350px) {
     /* We can also apply mid width style to it. */
     body {
         background-color: blue;
@@ -27,7 +35,3 @@ body {
 (expressions) {
     CSS-Code;
 } */
-
-.boxes {
-    display: flex;
-}
