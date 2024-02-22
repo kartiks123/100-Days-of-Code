@@ -1,0 +1,17 @@
+In today's time, whenever we are creating any content or website for any client, we want to make it responsive so that it is 
+setting to the customer's needs.
+
+We use Media Queries for such purposes.
+This will aloow our website to look better for any device, for laptop, desktop pc, mobiles, etc.
+
+We use the tag "@media" :
+@media not|only mediatype and (expressions) {
+    CSS-Code;
+}
+
+We use this format to specify that the media will open on screens only having mediatype, or not having mediatype.
+
+In 'screen' mode, we can view the content in any kind of device that has a screen. Be it a mobile phone, laptop.
+
+'Speech Devices' are used for people who cannot see.
+
