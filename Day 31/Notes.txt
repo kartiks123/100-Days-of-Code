@@ -15,3 +15,7 @@ In 'screen' mode, we can view the content in any kind of device that has a scree
 
 'Speech Devices' are used for people who cannot see.
 
+Thus we can view it by inspecting on browser on how the changes are being shown to us in, by adjusting the view in the
+responsiveness tab.
+Now suppose, we want to allow our boxes to wrap themselves up when we are viewing on mobile.
+

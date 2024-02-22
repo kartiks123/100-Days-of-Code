@@ -2,10 +2,16 @@ body {
     background-color: red;
 }
 
-@media only screen and (max-width: 1000px) {
+
+
+@media only screen and (max-width: 3036px) {
     /* We can also apply mid width style to it. */
     body {
         background-color: blue;
+    }
+
+    .boxes {
+        flex-direction: column;
     }
 }
 
@@ -21,3 +27,7 @@ body {
 (expressions) {
     CSS-Code;
 } */
+
+.boxes {
+    display: flex;
+}
