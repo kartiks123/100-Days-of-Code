@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.papakepapa {
+    top: 0;
+    position: sticky;
+}
+
+.navb {
+    display: block;
+    padding: 30px;
+    text-align: center;
+    background-color: #e38ce5;
+}
+
+.h, .ab, .c {
+    padding: 30px;
+    font-size: 25px;
+    color: rgb(255, 208, 0);
+}
+
+.papa {
+    background-color: greenyellow;
+    height: 50vh;
+}
+
+.sec1, .sec2 {
+    background-color: red;
+    display: inline-flex;
+    padding: 10px 10px 20px 10px;
+    margin: 10px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.mid {
+    background-color: brown;
+    padding: 50px;
+}
+
+.midtomid {
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.pic {
+    
+}
+
+.foot {
+    background-color: aqua;
+    padding: 25px;
+    text-align: center;
+}
