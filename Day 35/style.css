@@ -1,0 +1,53 @@
+/*
+.box:first-child {
+    background-color: red;
+} 
+*/
+
+/*
+.box:first-line {
+    background-color: red;;
+}
+*/
+
+/* .boxes * {
+    color: blue;
+    border: 2px solid black;
+}
+
+p, a, .box, [data-color="primary"] {
+    padding-top: 45px;
+} */
+
+/* .box:nth-child(even) {
+    background-color: blue;
+} */
+
+/* .box:nth-last-child(1) {
+    background-color: blue;
+} */
+
+.boxes::before{
+    content: "Kartik is Good";
+    color: red;
+}
+
+.boxes::after {
+    content: "This course is going awesome";
+    color: yellow;
+}
+
+::selection {  
+    color: rgb(147, 224, 47);
+    background-color: purple;
+}
+
+.box::first-letter {
+    color: peru;
+    font-size: 35px;
+}
+
+input::placeholder {
+    color: hotpink;
+    font-size: 18px;
+}

@@ -1,0 +1,30 @@
+We have so many more options that we are going to talk about in this section now...
+REMEMBER, I AM COMMENTING OUT THE PREVIOUS FUNCTIONS AS I AM PROCEEDING FORWARD, IN THE style.css FOLDER.
+
+1) .'class-name-here':first-child {} - will affect the first child class element only, under a parent element.
+
+2) .'class-name-here':first-line {} - will change the way that the first line of the paragraph is.
+Note: You can even check through responsiveness, that only your first line is changing, irrespective of the width set to it.
+
+3) .'class-name-here' * {} - will allow you to change the styling property of all the elements inside the class.
+
+4) There are various other selectors like, attribute selectors, using which we can set a class to a certain css element.
+Through this we can directly change the style of that element, using that same class-name. 
+This class name is random and is referred to as "['your-attribute-name]" in your CSS file.
+
+5) Also, you can set multiple selectors in the same section. (proven above)
+
+6) We can even set the styles to a certain even or odd element, using - " 'your-class-name':nth-child(even/odd) {} "
+
+7) We can use 'before' or 'after' to insert elements through CSS, dynamically.
+
+8) Sometimes we need to add our content, before or after the already "established" conten (content that has been already 
+   written).
+   Remember, that they are pseudo-selectors, not elements.
+   Remember, 
+
+9) "::selection" -
+    We can change the color of the elements inside our website, after we have selected them (like we did after hovering them).
+
+10) We can even change a certain element inside a particular element.
+For eg- we can change the placeholder style settings, inside a form element.
