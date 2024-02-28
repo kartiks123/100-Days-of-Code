@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: violet;
+    font-size: 25px;
+    padding: 25px;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.but {
+    padding-left: 25px;
+    padding-right: 25px;
+}
