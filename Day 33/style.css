@@ -1,0 +1,61 @@
+/*nav {
+    background-color: rgb(182, 112, 112);
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.papa {
+    text-align: center;
+    padding:0px 0px 5px 0px;
+    display:block;
+}
+
+:root {
+    --fcolor:rgb(255, 0, 0);
+    --scolor:rgb(0, 0, 255);
+    --tcolor:rgb(0, 255, 0);
+    --focolor:rgb(255, 255, 0);
+}
+
+h1 {
+    background-color: rgb(80, 167, 173);
+}
+
+.h {
+    color: var(--fcolor);
+    border: 5px solid rgb(187, 56, 56);
+    width: 1356px;
+    display: block;
+    padding: 15px 0px 15px 0px;
+    margin: 15px 0px 15px 0px;
+}
+
+.c {
+    color: var(--scolor);
+    border: 5px solid rgb(50, 43, 158);
+    width: 1356px;
+    display: block;  
+    padding: 15px 0px 15px 0px;
+    margin: 15px 0px 15px 0px;
+}
+
+.a {
+    color: var(--tcolor);
+    border: 5px solid rgb(40, 99, 26);
+    width: 1356px;
+    display: block;
+    padding: 15px 0px 15px 0px;
+    margin: 15px 0px 15px 0px;
+}
+
+.m {
+    color: var(--focolor);
+    border: 5px solid rgb(154, 163, 28);
+    width: 1356px;
+    display: block;
+    padding: 15px 0px 15px 0px;
+    margin: 15px 0px 0px 0px;
+}
