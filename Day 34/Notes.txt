@@ -1,0 +1,18 @@
+Now while running this code that was written without any property used for float, the content is very bad for reading purpose.
+
+Now to write it in a more effective way, we can write it with the property of "display: flow-root"
+So now, all the borders and text will float rightwards, towards the image aligned on the left; according to 'float:left'.
+
+It will be visible in a way that is both suiting to what newspapers show to us.
+
+
+But what if, I don't want in my 2nd div (lorem 355) to show content on its left ?
+Then in this case, I will use 'clear'.
+
+
+We can use clear to clear the content on left, right or both sides (using 'clear:both'), of the selected CSS element.
+
+
+
+We should never use 'float' and 'clear', as it is not in use so much right now. In today's world, flexbox should be used, about
+which we will learn later :) !

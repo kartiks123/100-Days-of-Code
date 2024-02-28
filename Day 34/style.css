@@ -1,0 +1,17 @@
+img {
+    float: left; /* After I initiate clear: left below, it will not allow content to float on its left side.
+                    But, if I change this 'float: left' to 'float:right', it will allow the img element to float on its left.*/
+}
+
+.cards {
+    border: 2px solid black;
+    display: flow-root;
+}
+
+.card {
+    border: 2px solid red;
+}
+
+.card:nth-child(3) {
+    clear:left;
+}
