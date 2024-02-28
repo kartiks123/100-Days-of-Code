@@ -49,8 +49,13 @@
 
 .pic {
     position: fixed;
-    
+    height: 50px;
+    width: 50px;
+    right: 50px;
+    bottom: 20px;
+    border-radius: 50px;
 }
+
 
 .foot {
     background-color: aqua;
