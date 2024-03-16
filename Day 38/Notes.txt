@@ -1,0 +1,13 @@
+Earlier, developers used to set the division and alignment of each CSS element through intensive coding, by adjusting the 
+floats and positioning of them. But it was difficult earlier.
+So the need of FlexBox aroused from that.
+
+We have various use of FlexBox. The main use of it is of aligning the content of the elements in the center, both in terms of vertical alignment and items
+alignment.
+Also it's not necessary that you have to align your elements in a center manner. You can also put it in a flex-end (to mark it in the end position), flex-start
+(to mark it in the starting position), etc. There are many element-styling in flex that you might need to work on, but due to this 70% of the work is done.
+
+Now, first mark each and every item with numbers written in ascending order. If we are writing the numbers with the command - 'flex-direction: column', it will 
+mark the data columnwise.
+But if, we mark the data in the command - 'flex-direction: column-reverse', it will mark it the same, just in reverse order.
+

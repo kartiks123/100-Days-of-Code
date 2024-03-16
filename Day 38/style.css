@@ -1,0 +1,25 @@
+.container1 {
+    border: 2px solid red;
+    display: flex; /* This will tell the code to put the boxes in the direction of left to right instead of top to bottom. */
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.container2 {
+    border: 2px solid red;
+    display: flex; /* This will tell the code to put the boxes in the direction of left to right instead of top to bottom. */
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column-reverse;
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: violet;
+}
